@@ -1,0 +1,21 @@
+system_id,system_name,function,ai_type,provider,regions,lifecycle,decision_impact,human_oversight,personal_data,sensitive_data,financial_impact,regulatory_impact,third_party,explainability_challenge,autonomy_level,data_cross_border
+AI-001,Aurelia Research Copilot,Investment Research,GenAI/LLM,Enterprise LLM Provider,UK|EU|Singapore|UAE,Production,Investment research recommendations,Required,Yes,Yes,High,High,Yes,High,2,Yes
+AI-002,ValuAI,Private Equity Valuation,Predictive ML,Internal Model,UK|UAE,Production,Valuation decision support,Required,No,Yes,High,High,No,High,2,Yes
+AI-003,NAVAssist,Fund Administration,ML plus rules,Internal and Vendor Components,EU|UK,Production,NAV exception identification,Required,Yes,Yes,High,High,Yes,Medium,2,Yes
+AI-004,InvestorGPT,Investor Reporting,GenAI/LLM,Enterprise LLM Provider,UK|EU|UAE,Production,Investor communication support,Required,Yes,Yes,High,High,Yes,High,2,Yes
+AI-005,KYC Sentinel,Compliance,Predictive ML,Specialist Vendor,EU|UK|UAE,Production,KYC and AML risk scoring,Required,Yes,Yes,High,High,Yes,High,3,Yes
+AI-006,Aurelia ClientBot,Investor Relations,GenAI/LLM,Enterprise LLM Provider,UAE|UK,Production,Client-facing information and support,Required,Yes,Yes,Medium,High,Yes,High,2,Yes
+AI-007,ContractIQ,Legal and Procurement,GenAI/NLP,Enterprise LLM Provider,Singapore|UK,Production,Contract analysis and summarisation,Required,Yes,Yes,Medium,Medium,Yes,Medium,2,Yes
+AI-008,TalentAI,Human Resources,ML,HR Technology Vendor,UK,Production,Candidate screening support,Required,Yes,Yes,Medium,High,Yes,High,2,No
+AI-009,CodeAssist,Technology,GenAI/LLM,Enterprise LLM Provider,Global,Production,Software development assistance,Required,No,Yes,Medium,Medium,Yes,Medium,1,Yes
+AI-010,MarketingGen,Marketing,GenAI/LLM,Enterprise LLM Provider,UAE|UK|EU,Production,Marketing content generation,Required,Yes,No,Low,Medium,Yes,Medium,1,Yes
+AI-011,PortfolioWatch,Portfolio Management,Predictive ML,Internal Model,UK|EU,Production,Portfolio risk monitoring and alerts,Required,No,Yes,High,High,No,High,2,Yes
+AI-012,VendorGPT,Enterprise AI Platform,Third-party LLM,External Foundation Model Provider,Global,Production,General enterprise AI capability,Required,Yes,Yes,Medium,High,Yes,High,2,Yes
+AI-013,DealScreen,Private Equity,ML,Specialist Vendor,UK|EU|UAE,Pilot,Deal screening and prioritisation,Required,No,Yes,High,High,Yes,High,2,Yes
+AI-014,ExpenseGuard,Finance,Anomaly Detection,Internal Model,UK|EU|Singapore,Production,Expense anomaly detection,Review by Finance,Yes,No,Medium,Medium,No,Low,1,Yes
+AI-015,RegWatch,Compliance,NLP/LLM,Specialist Vendor,UK|EU|Singapore|UAE,Pilot,Regulatory change monitoring,Required,No,No,Medium,High,Yes,Medium,1,Yes
+AI-016,ClientSuitabilityAssist,Wealth Management,GenAI plus rules,Internal and Vendor Components,UAE|UK,Development,Client suitability support,Required,Yes,Yes,High,High,Yes,High,2,Yes
+AI-017,DataQualityAI,Fund Administration,ML,Internal Model,EU|UK,Production,Financial data quality monitoring,Required,No,Yes,High,High,No,Medium,2,Yes
+AI-018,DocumentExtract,Operations,Computer Vision plus NLP,Specialist Vendor,EU|Singapore|UAE,Production,Document extraction and classification,Required,Yes,Yes,Medium,Medium,Yes,Medium,2,Yes
+AI-019,ComplianceCopilot,Compliance,GenAI/LLM,Enterprise LLM Provider,UK|EU|UAE,Development,Compliance analysis and drafting,Required,Yes,Yes,Medium,High,Yes,High,2,Yes
+AI-020,BoardBriefAI,Executive Management,GenAI/LLM,Enterprise LLM Provider,UK|EU|UAE,Development,Management information summarisation,Required,Yes,Yes,High,High,Yes,High,1,Yes
