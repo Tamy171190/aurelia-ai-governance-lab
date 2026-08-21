@@ -1,0 +1,9 @@
+Risk_ID,System,System_Risk_Category,Risk_Description,Likelihood_1_5,Impact_1_5,Inherent_Score,Control_Effectiveness_1_5,Residual_Score,Risk_Level
+RA-001,Aurelia Research Copilot,Reliability,Material factual errors in investment research outputs,4,4,16,3,8,HIGH
+RA-002,Aurelia Valuation Assistant,Model Risk,Incorrect valuation assumptions or unsupported outputs,4,5,20,3,10,HIGH
+RA-003,NAVAssist,Operational,False or missed reconciliation exceptions,3,4,12,4,6,MEDIUM
+RA-004,InvestorGPT,Transparency,Unsupported or misleading investor commentary,3,4,12,3,8,HIGH
+RA-005,KYC Sentinel,Fairness,Unequal error rates across relevant customer groups,3,5,15,3,9,HIGH
+RA-006,Aurelia ClientBot,Customer,Inappropriate or harmful customer response,3,4,12,4,6,MEDIUM
+RA-007,AML Transaction Monitor,Compliance,Missed high-risk transaction alert,3,5,15,4,7.5,HIGH
+RA-008,DocumentIQ,Data Quality,Critical document extraction error,3,3,9,4,3.6,LOW
