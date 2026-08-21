@@ -4,7 +4,7 @@ Build an evidence register that demonstrates whether Aurelia's AI governance con
 
 ## Evidence structure
 
-**Evidence ID -> Requirement / Control -> Jurisdiction / Framework -> Evidence Description -> Owner -> Frequency -> Status -> Evidence Location -> Auditor Note -> Remediation**
+**Evidence ID -> Requirement / Control -> Jurisdiction / Framework -> Evidence Description -> Owner -> Frequency -> Status -> Evidence Location -> Test -> Finding -> Remediation**
 
 ## Evidence status
 
@@ -49,6 +49,10 @@ The evidence pack should allow an auditor or assessor to move from:
 **Requirement -> Control -> Evidence -> Test -> Finding -> Remediation**
 
 The objective is not to create documentation for its own sake. Evidence should demonstrate that governance controls are implemented, consistently performed and capable of producing traceable outcomes.
+
+## Control ceiling linkage
+
+Evidence should also demonstrate that the highest applicable control requirement has been identified. Where the harmonised Aurelia control does not fully satisfy a jurisdiction-specific requirement, the evidence register should show the local enhancement or exception.
 
 ## Important Note
 
