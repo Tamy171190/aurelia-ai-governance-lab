@@ -1,10 +1,10 @@
-# Project 14 — AI Governance Evidence Pack & Audit Readiness
+# Project 14 - AI Governance Evidence Pack & Audit Readiness
 
 Build an evidence register that demonstrates whether Aurelia's AI governance controls are implemented and operating effectively.
 
 ## Evidence structure
 
-**Evidence ID → Requirement / Control → Jurisdiction / Framework → Evidence Description → Owner → Frequency → Status → Evidence Location → Auditor Note → Remediation**
+**Evidence ID -> Requirement / Control -> Jurisdiction / Framework -> Evidence Description -> Owner -> Frequency -> Status -> Evidence Location -> Auditor Note -> Remediation**
 
 ## Evidence status
 
@@ -46,7 +46,7 @@ A single piece of evidence can support multiple frameworks where the evidence ge
 
 The evidence pack should allow an auditor or assessor to move from:
 
-**Requirement → Control → Evidence → Test → Finding → Remediation**
+**Requirement -> Control -> Evidence -> Test -> Finding -> Remediation**
 
 The objective is not to create documentation for its own sake. Evidence should demonstrate that governance controls are implemented, consistently performed and capable of producing traceable outcomes.
 
