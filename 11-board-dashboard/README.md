@@ -1,4 +1,4 @@
-# Project 11 — Board AI Governance Dashboard
+# Project 11 - Board AI Governance Dashboard
 
 Translate the AI inventory, risk, control and evidence information into concise Board and senior-management reporting.
 
