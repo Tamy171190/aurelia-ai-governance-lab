@@ -1,0 +1,12 @@
+{
+  "system_id": "AI-004",
+  "name": "InvestorGPT",
+  "financial_services": true,
+  "customer_or_investor_impact": true,
+  "personal_data": false,
+  "generative_ai": true,
+  "external_model_or_vendor": true,
+  "material_decision_support": true,
+  "human_oversight": true,
+  "jurisdictions": ["UK", "EU", "Singapore", "UAE"]
+}
