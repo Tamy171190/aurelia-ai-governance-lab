@@ -35,6 +35,22 @@ This is not a claim that the strictest regulation automatically applies everywhe
 
 **Discover -> Inventory -> Classify -> Assess -> Map -> Govern -> Control -> Implement -> Monitor -> Assure -> Report**
 
+## Current Project: AI System Classification Engine
+
+The Classification Engine is the next stage after AI inventory. It uses fictional financial-services scenarios to demonstrate how an organisation can determine the appropriate governance intensity for an AI system.
+
+Inputs include intended purpose, geography, personal and sensitive data, consequential decision use, employment use, credit or financial decision use, customer-facing use, third-party AI dependency, autonomy, human override and material impact.
+
+The engine produces an illustrative governance tier:
+
+- **High Governance Attention**
+- **Enhanced Governance**
+- **Standard Governance**
+
+The output also identifies the control ceiling and the governance actions that should follow. The methodology is deliberately separate from legal classification and requires a jurisdiction-specific applicability assessment.
+
+See `projects/01-ai-system-classification-engine.md` and `data/ai_system_classification_engine.csv`.
+
 ## Portfolio Roadmap
 
 1. **AI Systems Inventory & Classification Engine** - identify AI systems, capture governance attributes, determine jurisdictional applicability indicators and apply an illustrative risk-classification methodology.
