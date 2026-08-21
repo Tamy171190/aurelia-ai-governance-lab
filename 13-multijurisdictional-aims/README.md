@@ -37,11 +37,26 @@ For each governance requirement:
 7. Add jurisdiction-specific enhancements where the baseline is insufficient.
 8. Link the control to evidence, testing and monitoring.
 
-The control ceiling is therefore a **control-design principle**, not a statement that the strictest regulation automatically applies in every geography.
+The control ceiling is a control-design principle, not a statement that the strictest regulation automatically applies in every geography.
+
+## Workbook alignment
+
+The Excel Governance Lab now carries the same logic across the full lifecycle:
+
+- AI Inventory
+- Data Governance
+- Vendor Risk
+- Risk Register
+- Risk Assessment
+- AI / Model Bill of Materials
+- Evidence Pack
+- Executive Dashboard
+- Regulatory Mapping
+- AIMS Control Library
 
 ## Control Architecture
 
-**Requirement -> Applicability -> Control Requirement -> Control Objective -> Control Activity -> Evidence -> Test -> Finding -> Remediation -> Monitoring**
+**Requirement -> Applicability -> Control Requirement -> Control Objective -> Control Activity -> Owner -> Frequency -> Evidence -> Test -> Finding -> Remediation -> Monitoring**
 
 ## Applicability Statuses
 
@@ -79,6 +94,7 @@ The control ceiling is therefore a **control-design principle**, not a statement
 - Evidence mapping
 - Control testing linkage
 - Exception and legal-review tracker
+- Executive coverage dashboard
 
 ## Important Note
 
