@@ -1,4 +1,4 @@
-# Project 01 — AI Systems Inventory & Risk Classification Engine
+# Project 01 - AI Systems Inventory & Risk Classification Engine
 
 ## Objective
 
