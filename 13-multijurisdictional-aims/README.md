@@ -1,4 +1,4 @@
-# Project 13 — Multi-Jurisdictional AIMS & Regulatory Mapping
+# Project 13 - Multi-Jurisdictional AIMS & Regulatory Mapping
 
 ## Objective
 
@@ -41,7 +41,7 @@ The control ceiling is therefore a **control-design principle**, not a statement
 
 ## Control Architecture
 
-**Requirement → Applicability → Control Requirement → Control Objective → Control Activity → Evidence → Test → Finding → Remediation → Monitoring**
+**Requirement -> Applicability -> Control Requirement -> Control Objective -> Control Activity -> Evidence -> Test -> Finding -> Remediation -> Monitoring**
 
 ## Applicability Statuses
 
