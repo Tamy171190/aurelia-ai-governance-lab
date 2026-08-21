@@ -1,4 +1,4 @@
-# Project 08 — Third-Party AI Supply Chain & Vendor Risk
+# Project 08 - Third-Party AI Supply Chain & Vendor Risk
 
 Assess external AI providers, foundation models, agent platforms and other AI dependencies used by Aurelia.
 
@@ -6,16 +6,16 @@ Assess external AI providers, foundation models, agent platforms and other AI de
 
 The vendor assessment is designed as a procurement and governance gate:
 
-**Question → Vendor Response / Finding → Regulatory or Framework Hook → Required Action → Priority → Status**
+**Question -> Vendor Response / Finding -> Regulatory or Framework Hook -> Required Action -> Priority -> Status**
 
 ## Assessment blocks
 
-1. **Procurement Gate** — AI type, architecture, provider role, intended use and known limitations.
-2. **Model and Technical Due Diligence** — foundation model, fine-tuning, testing, performance, robustness, explainability and update process.
-3. **Data and IP** — training data, customer data, retention, residency, cross-border transfers, intellectual property and permitted use.
-4. **Security and Resilience** — security assurance, access controls, vulnerabilities, business continuity and incident response.
-5. **Regulatory and Assurance** — applicable EU, UK, Singapore and UAE requirements plus ISO/IEC 42001 and NIST AI RMF alignment.
-6. **Ongoing Monitoring** — material changes, model updates, incidents, performance drift, subcontractors and exit readiness.
+1. **Procurement Gate** - AI type, architecture, provider role, intended use and known limitations.
+2. **Model and Technical Due Diligence** - foundation model, fine-tuning, testing, performance, robustness, explainability and update process.
+3. **Data and IP** - training data, customer data, retention, residency, cross-border transfers, intellectual property and permitted use.
+4. **Security and Resilience** - security assurance, access controls, vulnerabilities, business continuity and incident response.
+5. **Regulatory and Assurance** - applicable EU, UK, Singapore and UAE requirements plus ISO/IEC 42001 and NIST AI RMF alignment.
+6. **Ongoing Monitoring** - material changes, model updates, incidents, performance drift, subcontractors and exit readiness.
 
 ## Multi-Jurisdiction Mapping
 
