@@ -1,4 +1,4 @@
-# Project 09 — AI Conformity Assessment
+# Project 09 - AI Conformity Assessment
 
 Develop an evidence-based assessment for a selected high-impact AI use case.
 
