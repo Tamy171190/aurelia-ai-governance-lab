@@ -6,7 +6,7 @@ A practical AI Governance and Assurance portfolio built around a fictional inter
 
 This lab demonstrates how AI Governance principles can be translated into practical processes, controls, evidence, risk assessments and assurance activities across financial services.
 
-The portfolio uses a multi-jurisdiction design covering the United Kingdom, European Union, Singapore and United Arab Emirates, with ISO/IEC 42001 and NIST AI RMF used as cross-framework governance baselines. Regulatory requirements are clearly distinguished from illustrative methodology and design choices used in this fictional environment.
+The portfolio uses a multi-jurisdiction design covering the United Kingdom, European Union, Singapore and United Arab Emirates, with ISO/IEC 42001 and NIST AI RMF used as cross-framework governance baselines. Regulatory requirements are distinguished from illustrative methodology and design choices used in this fictional environment.
 
 ## Aurelia Capital Group
 
@@ -23,7 +23,7 @@ The organisation is deliberately designed to be sophisticated enough to require 
 
 ## Multi-Jurisdictional AIMS Design Principle
 
-The AIMS is designed to identify the requirements applicable to each AI system and then establish a harmonised control baseline wherever possible.
+The AIMS identifies the requirements applicable to each AI system and then establishes a harmonised control baseline wherever possible.
 
 **Requirement -> Applicability -> Highest Applicable Control Requirement -> Aurelia Control -> Evidence -> Testing -> Monitoring**
 
@@ -47,10 +47,10 @@ This is not a claim that the strictest regulation automatically applies everywhe
 8. **Third-Party AI Risk** - assess external foundation models and AI vendors across jurisdictions.
 9. **AI Conformity Assessment** - develop evidence-based assessment for selected use cases where conformity or enhanced assurance is relevant.
 10. **AI Governance Audit** - independently test governance design and operating effectiveness.
-11. **Board AI Governance Dashboard** - translate AI risk information into senior-management reporting.
+11. **Board AI Governance Dashboard** - provide an executive view of inventory, risk, control effectiveness, evidence readiness, jurisdictional coverage and priority actions.
 12. **AI Governance Stress Tests** - deliberately challenge the framework using realistic financial-services scenarios.
 13. **Multi-Jurisdictional AIMS & Regulatory Mapping** - maintain the master cross-framework matrix, control ceiling logic, applicability assessment and jurisdiction-specific enhancements.
-14. **AI Governance Evidence Pack & Audit Readiness** - connect requirements, controls and evidence so the AIMS can be independently assessed.
+14. **AI Governance Evidence Pack & Audit Readiness** - connect requirements, controls, evidence, testing, findings and remediation.
 
 ## Design Principles
 
