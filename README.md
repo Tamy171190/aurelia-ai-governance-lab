@@ -35,21 +35,19 @@ This is not a claim that the strictest regulation automatically applies everywhe
 
 **Discover -> Inventory -> Classify -> Assess -> Map -> Govern -> Control -> Implement -> Monitor -> Assure -> Report**
 
-## Current Project: AI System Classification Engine
+## Current Project: AI Post-Deployment Monitoring and KRI Engine
 
-The Classification Engine is the next stage after AI inventory. It uses fictional financial-services scenarios to demonstrate how an organisation can determine the appropriate governance intensity for an AI system.
+The Post-Deployment Monitoring and KRI Engine extends the lab from approval and control design into ongoing lifecycle governance.
 
-Inputs include intended purpose, geography, personal and sensitive data, consequential decision use, employment use, credit or financial decision use, customer-facing use, third-party AI dependency, autonomy, human override and material impact.
+It demonstrates how Aurelia monitors model performance, data drift, fairness, human oversight, explainability, privacy, cybersecurity, vendor changes, incidents and customer impact after deployment.
 
-The engine produces an illustrative governance tier:
+The monitoring model links:
 
-- **High Governance Attention**
-- **Enhanced Governance**
-- **Standard Governance**
+**AI System -> Risk -> KRI -> Threshold -> Evidence -> Escalation -> Remediation -> Reassessment**
 
-The output also identifies the control ceiling and the governance actions that should follow. The methodology is deliberately separate from legal classification and requires a jurisdiction-specific applicability assessment.
+The project uses illustrative thresholds to demonstrate governance mechanics. They are not presented as universal regulatory limits.
 
-See `projects/01-ai-system-classification-engine.md` and `data/ai_system_classification_engine.csv`.
+See `15-ai-monitoring-and-kri-engine/README.md` and `15-ai-monitoring-and-kri-engine/ai_monitoring_register.csv`.
 
 ## Portfolio Roadmap
 
@@ -67,6 +65,7 @@ See `projects/01-ai-system-classification-engine.md` and `data/ai_system_classif
 12. **AI Governance Stress Tests** - deliberately challenge the framework using realistic financial-services scenarios.
 13. **Multi-Jurisdictional AIMS & Regulatory Mapping** - maintain the master cross-framework matrix, control ceiling logic, applicability assessment and jurisdiction-specific enhancements.
 14. **AI Governance Evidence Pack & Audit Readiness** - connect requirements, controls, evidence, testing, findings and remediation.
+15. **AI Post-Deployment Monitoring & KRI Engine** - monitor deployed AI systems, define KRIs and thresholds, capture evidence, escalate breaches and trigger risk reassessment.
 
 ## Design Principles
 
@@ -81,6 +80,7 @@ See `projects/01-ai-system-classification-engine.md` and `data/ai_system_classif
 - Harmonised global controls with jurisdiction-specific enhancements
 - Practical implementation
 - Independent assurance
+- Lifecycle monitoring after deployment
 
 ## Important Note
 
