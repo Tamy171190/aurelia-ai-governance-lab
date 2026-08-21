@@ -33,11 +33,17 @@ def score_system(record: dict) -> ClassificationResult:
     score += 3 if record.get("third_party") == "Yes" else 0
     score += 2 if record.get("data_cross_border") == "Yes" else 0
 
-    flags = []
-    if "EU" in record.get("regions", ""):
-        flags.append("EU deployment or processing")
-    if "UAE" in record.get("regions", ""):
-        flags.append("UAE deployment or processing")
+    flags = ["ISO/IEC 42001 AIMS baseline", "NIST AI RMF applicability: GOVERN/MAP/MEASURE/MANAGE"]
+    regions = record.get("regions", "")
+
+    if "EU" in regions or "Global" in regions:
+        flags.append("EU applicability assessment")
+    if "UK" in regions or "Global" in regions:
+        flags.append("UK applicability assessment")
+    if "Singapore" in regions or "Global" in regions:
+        flags.append("Singapore applicability assessment")
+    if "UAE" in regions or "Global" in regions:
+        flags.append("UAE applicability assessment")
     if record.get("personal_data") == "Yes":
         flags.append("Personal data")
     if record.get("financial_impact") == "High":
@@ -46,11 +52,14 @@ def score_system(record: dict) -> ClassificationResult:
         flags.append("Third-party AI dependency")
     if record.get("ai_type", "").startswith("GenAI"):
         flags.append("Generative AI")
+    if record.get("data_cross_border") == "Yes":
+        flags.append("Cross-border processing assessment")
 
     if score >= 31:
         tier = "High"
         controls = [
             "Formal AI risk assessment",
+            "Multi-jurisdiction applicability assessment",
             "Documented human oversight",
             "Enhanced technical and governance documentation",
             "Pre-production approval",
@@ -58,11 +67,13 @@ def score_system(record: dict) -> ClassificationResult:
             "Incident management process",
             "Third-party assessment where applicable",
             "Independent assurance or audit consideration",
+            "Control ceiling assessment across applicable frameworks",
         ]
     elif score >= 21:
         tier = "Moderate"
         controls = [
             "AI risk assessment",
+            "Jurisdiction and framework applicability assessment",
             "Named business and technical owner",
             "Documented human oversight",
             "Periodic monitoring",
@@ -72,6 +83,7 @@ def score_system(record: dict) -> ClassificationResult:
         tier = "Low"
         controls = [
             "Inventory registration",
+            "Jurisdiction and framework applicability check",
             "Named owner",
             "Baseline documentation",
             "Periodic review",
