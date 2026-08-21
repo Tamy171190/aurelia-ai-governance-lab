@@ -1,4 +1,4 @@
-# Project 06 — EU AI Act Readiness Assessment
+# Project 06 - EU AI Act Readiness Assessment
 
 Create a fictional readiness workflow for selected Aurelia AI systems.
 
