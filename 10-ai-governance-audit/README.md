@@ -1,4 +1,4 @@
-# Project 10 — AI Governance Audit
+# Project 10 - AI Governance Audit
 
 Perform an independent audit of Aurelia's AI Governance Management System (AIMS).
 
@@ -33,7 +33,7 @@ For each sampled AI system, the auditor should determine whether Aurelia:
 
 Findings will use:
 
-**Condition → Criteria / Requirement → Risk → Root Cause → Recommendation → Management Response → Priority → Evidence Required → Closure Test**
+**Condition -> Criteria / Requirement -> Risk -> Root Cause -> Recommendation -> Management Response -> Priority -> Evidence Required -> Closure Test**
 
 The audit should distinguish between:
 
