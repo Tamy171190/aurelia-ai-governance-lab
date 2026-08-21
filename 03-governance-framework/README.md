@@ -1,4 +1,4 @@
-# Project 03 — AI Governance Framework
+# Project 03 - AI Governance Framework
 
 Design an enterprise AI Governance Framework for Aurelia Capital Group.
 
