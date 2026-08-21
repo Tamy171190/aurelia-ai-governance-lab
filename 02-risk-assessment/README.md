@@ -1,10 +1,10 @@
-# Project 02 — AI Risk Assessment Framework
+# Project 02 - AI Risk Assessment Framework
 
 This project will extend the inventory into a structured AI risk assessment process.
 
 ## Planned workflow
 
-AI system → risk identification → inherent risk → control assessment → residual risk → treatment → owner → monitoring
+AI system -> risk identification -> inherent risk -> control assessment -> residual risk -> treatment -> owner -> monitoring
 
 ## Risk domains
 
