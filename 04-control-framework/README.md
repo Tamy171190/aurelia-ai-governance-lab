@@ -1,10 +1,10 @@
-# Project 04 — AI Control Framework
+# Project 04 - AI Control Framework
 
 Translate AI Governance requirements into practical controls, evidence and testing across Aurelia's four operating jurisdictions.
 
 ## Control structure
 
-**Requirement → Applicability → Risk → Control Objective → Control Activity → Owner → Frequency → Evidence → Test Procedure → Finding**
+**Requirement -> Applicability -> Risk -> Control Objective -> Control Activity -> Owner -> Frequency -> Evidence -> Test Procedure -> Finding**
 
 ## Multi-Jurisdiction Control Logic
 
