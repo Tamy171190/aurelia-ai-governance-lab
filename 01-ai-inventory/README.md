@@ -6,34 +6,57 @@ Build a practical AI systems register and an illustrative risk-classification en
 
 The project asks a foundational AI Governance question:
 
-> **What AI systems does the organisation use, what do they do, who is accountable for them, and what level of governance should apply?**
+> **What AI systems does the organisation use, what do they do, who is accountable for them, where are they used, which governance requirements may apply, and what level of governance should apply?**
 
 ## Initial AI Landscape
 
-The first inventory will cover 12 core use cases:
+The inventory covers 20 synthetic use cases across Aurelia's UK, EU, Singapore and UAE footprint.
 
-| ID | AI System | Function | AI Type | Primary Region |
-|---|---|---|---|---|
-| AI-001 | Aurelia Research Copilot | Investment Research | GenAI / LLM | UK |
-| AI-002 | ValuAI | Private Equity Valuation | Predictive / ML | UK |
-| AI-003 | NAVAssist | Fund Administration | ML / Rules + AI | EU |
-| AI-004 | InvestorGPT | Investor Reporting | GenAI / LLM | UK |
-| AI-005 | KYC Sentinel | Compliance | Predictive AI | EU |
-| AI-006 | Aurelia ClientBot | Investor Relations | GenAI / LLM | UAE |
-| AI-007 | ContractIQ | Legal / Procurement | GenAI / NLP | Singapore |
-| AI-008 | TalentAI | HR | ML | UK |
-| AI-009 | CodeAssist | Technology | GenAI / LLM | Global |
-| AI-010 | MarketingGen | Marketing | GenAI / LLM | UAE |
-| AI-011 | PortfolioWatch | Portfolio Management | Predictive AI | UK/EU |
-| AI-012 | VendorGPT | Enterprise AI Platform | Third-party LLM | Global |
+The inventory intentionally contains a mixture of lower, moderate and higher governance needs. A high illustrative score does **not** automatically mean that a system is legally classified as high risk under a particular regulation.
+
+## Multi-Jurisdiction Design
+
+Each inventory record should support assessment against:
+
+- EU AI Act applicability
+- UK AI governance and relevant regulatory expectations
+- Singapore AI governance expectations, including IMDA guidance where relevant
+- UAE AI governance and applicable data or sector requirements
+- ISO/IEC 42001 AIMS controls
+- NIST AI RMF GOVERN, MAP, MEASURE and MANAGE functions
+
+The inventory captures geography and processing information first. Legal applicability is then assessed rather than inferred solely from the presence of a country name.
 
 ## Planned Inventory Attributes
 
-The register will capture identification, ownership, AI characteristics, data characteristics, impact, geography, regulatory indicators, human oversight, third-party dependency, documentation and governance status.
+The register will capture:
+
+- System identity and purpose
+- Business owner and technical owner
+- AI type and model/provider information
+- Deployment and processing geography
+- Users and affected populations
+- Decision impact and autonomy
+- Personal and sensitive data
+- Financial and regulatory impact
+- Third-party dependency
+- Explainability and transparency challenges
+- Human oversight
+- Cross-border processing
+- Framework applicability indicators
+- Governance tier
+- Control ceiling
+- Evidence and review status
+
+## Control Ceiling Principle
+
+Where multiple applicable frameworks address the same risk, the AIMS should establish a harmonised control that meets the **highest applicable control requirement** where practical. Jurisdiction-specific requirements that cannot be harmonised remain explicit enhancements or exceptions.
+
+This is a governance design principle, not a claim that the strictest law automatically applies in every jurisdiction.
 
 ## Planned Classification Approach
 
-The classification engine will use an **illustrative, portfolio-specific methodology** rather than claiming that the numerical thresholds are prescribed by any regulation or standard.
+The classification engine will use an **illustrative, portfolio-specific methodology** rather than claiming that numerical thresholds are prescribed by any regulation or standard.
 
 Potential risk factors include:
 
@@ -46,16 +69,18 @@ Potential risk factors include:
 - Potential reputational harm
 - Third-party dependency
 - Explainability challenges
+- Cross-border processing
 
-The project will distinguish between **risk scoring** and **regulatory classification**, recognising that a numerical risk score does not automatically determine legal classification.
+The project distinguishes between **illustrative risk scoring**, **framework applicability**, and **legal/regulatory classification**.
 
 ## Next Build Steps
 
-1. Create the synthetic inventory dataset.
-2. Define the data dictionary.
+1. Maintain the synthetic inventory dataset.
+2. Define the data dictionary and applicability fields.
 3. Establish the scoring methodology.
 4. Implement the classification engine in Python.
-5. Add validation and test cases.
-6. Stress-test borderline scenarios.
-7. Document assumptions and limitations.
-8. Connect outputs to future risk-assessment and control projects.
+5. Add jurisdictional and framework flags.
+6. Add validation and test cases.
+7. Stress-test borderline scenarios.
+8. Document assumptions and limitations.
+9. Connect outputs to the risk, control, vendor, evidence and assurance projects.
