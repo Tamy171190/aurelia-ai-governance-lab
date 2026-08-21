@@ -50,6 +50,7 @@ This is not a claim that the strictest regulation automatically applies everywhe
 11. **Board AI Governance Dashboard** — translate AI risk information into senior-management reporting.
 12. **AI Governance Stress Tests** — deliberately challenge the framework using realistic financial-services scenarios.
 13. **Multi-Jurisdictional AIMS & Regulatory Mapping** — maintain the master cross-framework matrix, control ceiling logic, applicability assessment and jurisdiction-specific enhancements.
+14. **AI Governance Evidence Pack & Audit Readiness** — connect requirements, controls and evidence so the AIMS can be independently assessed.
 
 ## Design Principles
 
