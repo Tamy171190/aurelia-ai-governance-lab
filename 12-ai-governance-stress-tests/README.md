@@ -1,4 +1,4 @@
-# Project 12 — AI Governance Stress Tests
+# Project 12 - AI Governance Stress Tests
 
 Deliberately challenge the governance framework using realistic financial-services scenarios.
 
